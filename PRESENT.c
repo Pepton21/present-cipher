@@ -2,7 +2,7 @@
 //                                                  //
 //  Lightweight block cipher PRESENT implementation //
 //  Author:                                         //
-//  Petar Tonkovic	                                //
+//  Petar Tonkovic	                            //
 //                                                  //
 //////////////////////////////////////////////////////
 
