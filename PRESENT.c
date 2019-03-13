@@ -1,10 +1,8 @@
 //////////////////////////////////////////////////////
 //                                                  //
 //  Lightweight block cipher PRESENT implementation //
-//  Authors:                                        //
-//  Petar Tonkovikj                                 //
-//  Kristina Cvetanovska                            //
-//  Gorazd Nikolovski                               //
+//  Author:                                         //
+//  Petar Tonkovic	                                //
 //                                                  //
 //////////////////////////////////////////////////////
 
@@ -225,7 +223,7 @@ char* decrypt(char* ciphertext, char* key){
     free(subkeys);
     return fromLongToHexString(state);
 }
-// main function
+// Test main function
 int main(){
     //declare a pointer and allocate memory for the plaintext (1 block) and the key
     char *plaintext = malloc(17 * sizeof(char));
